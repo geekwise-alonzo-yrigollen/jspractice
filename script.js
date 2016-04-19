@@ -8,7 +8,7 @@ function createTable(numCols, numRows){
         middle += '<tr>';
     for (var c = 0; c < numCols; c++){
         
-        middle += '<td></td>';
+        middle += '<td>AAY</td>';
           
     }
         middle += '</tr>';
@@ -17,4 +17,10 @@ function createTable(numCols, numRows){
 }
 
 document.body.innerHTML = createTable(25, 20);
+//document.getElementByTagName('td');
+//document.onkeydown = function(){
+//    var randomCell = Math.floor
+//}
+
+
 
