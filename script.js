@@ -9,10 +9,7 @@ function createTable(numCols, numRows){
     for (var c = 0; c < numCols; c++){
         
         middle += '<td>AAY</td>';
-        document.onkeydown = function() {
-  var randomCell = Math.floor(Math.random() * 375);
-  document.getElementsByTagName('td')[randomCell].className += ' red';
-}
+        
           
     }
         middle += '</tr>';
