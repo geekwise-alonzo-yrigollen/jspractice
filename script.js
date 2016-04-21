@@ -1,4 +1,3 @@
-
 var square;
 var up_key = 38;
 var down_key = 40;
@@ -8,11 +7,7 @@ var square_left;
 var square_top;
 
 document.addEventListener('DOMContentLoaded',function(event){
-    
-    
-    
-    
-    
+        
     console.log('browser loaded');
     
     square = document.createElement('div');
@@ -76,11 +71,6 @@ document.addEventListener('DOMContentLoaded',function(event){
     
     
 });
-
-
-
-
-
 
 function createTable(numCols, numRows){
     
