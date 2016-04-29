@@ -10,7 +10,7 @@ var new_contact;
 var new_element;
 //var input_element;
 
-var contact = ['tiffany', 'khoa', 'veronica', 'nichole', 'alonzo'];
+var contact = ['Alonzo Yrigollen', 'Alexis Yrigollen', 'Bridgett West', 'Rick Curry', 'Double Dribble'];
 
 
 
