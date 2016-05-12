@@ -1,14 +1,157 @@
-body { margin: 10px; }
+html {
+  background-color: #003300;
+}
+
+td div{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 0;
+  width: 0;
+  position: relative;
+}
+
+div .topSky{
+  border-top: 1.5em solid #cccccc;
+}
+
+div .leftSky{
+  border-left: 2.25em solid #cccccc;
+}
+
+div .rightSky{
+  border-right: 2.25em solid #cccccc;
+}
+
+div .topWall{
+  border-top: 1.5em solid #333333;
+}
+
+div .leftWall{
+  border-left: 2.25em solid #333333;
+}
+
+div .rightWall{
+  border-right: 2.25em solid #333333;
+}
+
+div .bottomWall{
+  border-bottom: 1.5em solid #333333;
+}
+
+div .bottomFloor{
+  border-bottom: 1.5em solid #808080;
+}
+
+div .leftFloor{
+  border-left: 2.25em solid #808080;
+}
+
+div .rightFloor{
+  border-right: 2.25em solid #808080;
+}
+
+.skyblue{
+  background-color: #cccccc;
+}
+
+.floorgray{
+  background-color: #808080;
+}
+
+.wallgray{
+  background-color: #333333;
+}
+
+div {
+  margin-top: 80px;
+  margin-bottom: 120px;
+  height: 500px;
+  width: 100%;
+  float: left;
+  position: relative;
+  color: white;
+}
+
+#header {
+  height: 50px;
+  width: 97.5%;
+  position: fixed;
+  float: top;
+  z-index: 2;
+  background-color: black;
+  border: 1px solid white;
+  margin-top: -10px;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  padding-top: 16px;
+  text-align: center;
+}
 
 table {
-    border-spacing: 1px;
-    margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid black;
+  outline: 1px solid white;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+img {
+    display: block;
+    width: 750px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid white;
+    padding: 10px;
     background-color: black;
 }
 
-td {
-    min-width: 25px;
-    height: 25px;
-    background-color: white;
-    padding: 0px;
+.bcell {
+  width: 20px;
+}
+
+tr, td {
+  border: 0px solid black;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  padding: 0;
+}
+
+.wall {
+  background-color: #333333;
+}
+
+#farImage{
+  background-color: #333333;
+  width: 385px;
+  height: 250px;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  outline: 1px solid black;
+  position: relative;
+}
+
+#cheat{
+  margin-top: -12px;
+  background-color: #333333;
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  position: relative;
+}
+
+p {
+  margin-top: 115px;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
 }
